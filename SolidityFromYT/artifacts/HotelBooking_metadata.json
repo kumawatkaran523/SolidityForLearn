@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "book",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "currStatus",
+				"outputs": [
+					{
+						"internalType": "enum HotelBooking.status",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SolidityFromYT/04_HotelBooking.sol": "HotelBooking"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SolidityFromYT/04_HotelBooking.sol": {
+			"keccak256": "0x94b16c22355fa409dc0daee3150aca7ccb5e3567c5d2858eb455654c8e622851",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://350818fe9f3f7763eb4eceb2223f6c084591f8084030e1abf2c71946b5ed4335",
+				"dweb:/ipfs/QmeioWdHwTxXZ1s7PqWQbDE3gsPbP1n2fdiXAmJg7Ei2Ha"
+			]
+		}
+	},
+	"version": 1
+}

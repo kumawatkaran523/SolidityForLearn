@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_x",
+						"type": "uint256"
+					}
+				],
+				"name": "fact",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"046/factorial.sol": "factorial"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"046/factorial.sol": {
+			"keccak256": "0x47bce28835d516b011bf8367c3261654fd5df99bcb065736a4f7d16da380b48b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7dc2d5eb3e3d9c18b426e830b5a4ccc7bea62e5ae3d833b72ff659b4a1d356c2",
+				"dweb:/ipfs/QmPMfMPCJ2VfH645x5daxrJyn76cGxr4dP2HSQDHu5t7vm"
+			]
+		}
+	},
+	"version": 1
+}

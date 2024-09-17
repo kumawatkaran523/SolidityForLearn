@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "num2",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "printNum1",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"046/modifier.sol": "SpecialNumber"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"046/modifier.sol": {
+			"keccak256": "0xd7fd209ba6c9d880debadd6cecb1bcb4fd99aefa2611a846441a3617af4cbc58",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4afa3d2d9c1fd7d165b0965d49ddf8db971009348a24a82a2d3dd722d7291bbb",
+				"dweb:/ipfs/QmaB2udiGk3tk4ztoNYqeUJs7DkNuAT76hbrbook2fyqSV"
+			]
+		}
+	},
+	"version": 1
+}
